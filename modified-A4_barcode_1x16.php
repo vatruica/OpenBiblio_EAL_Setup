@@ -1,15 +1,15 @@
-This is the modified version of the A4_barcode_1x16.php layout file located in /var/www/openbiblio/layouts/default/A4_barcode_1x16.php
+#This is the modified version of the A4_barcode_1x16.php layout file located in /var/www/openbiblio/layouts/default/A4_barcode_1x16.php
 
 
-Values will be diferent , provided the fact that you will use a diferent printer than in this setup. 
+#Values will be diferent , provided the fact that you will use a diferent printer than in this setup. 
 
-Our labels dimensions:
-- height => 2inches = 5cm = 144pt
-- width => 3inches = 7.5cm = 216pt 
+#Our labels dimensions:
+#- height => 2inches = 5cm = 144pt
+#- width => 3inches = 7.5cm = 216pt 
 
-While browsing through layout files we can see that openbiblio coders used several measuring units acros their files and not a generic one. It is important to know that you can use pt (points), in(inches), cm(centimeters) and mm (milimeters). I'm not sure if you can use others, but i only came acros these (and really, who would need more?)
+#While browsing through layout files we can see that openbiblio coders used several measuring units acros their files and not a generic one. It is important to know that you can use pt (points), in(inches), cm(centimeters) and mm (milimeters). I'm not sure if you can use others, but i only came acros these (and really, who would need more?)
 
-I modified dimensions and margins so that our labels will be printed nicely. Check lines 37, 38, 43, 50, 54, 62 and 67.
+#I modified dimensions and margins so that our labels will be printed nicely. Check lines 37, 38, 43, 50, 54, 62 and 67.
 
 
 <?php
