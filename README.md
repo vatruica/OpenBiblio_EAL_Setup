@@ -54,3 +54,7 @@ Go to http://localhost/openbiblio/index.php . The default username and password 
 
 
 
+
+##Resources
+- http://openbiblio.sint-godelieve-instituut.be/install_instructions.html
+- http://sourceforge.net/projects/obiblio/
