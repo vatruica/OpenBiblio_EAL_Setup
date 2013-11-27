@@ -54,8 +54,13 @@ Go to http://localhost/openbiblio/index.php . The default username and password 
 
 ###5. Modify label printing 
 
+There are only 2 files that need to be modified, this being the reason for not uploading entire OpenBiblio source code.
 
+The first one is layout.php (/var/www/openbiblio/shared/layout.php) which choose the PDF layout when we are generating reports. You can find it in the repository here - https://github.com/victor1tnet/OpenBiblio_EAL_Setup/blob/master/modified-layout.php
 
+The second file is A4_barcode_1x16.php(/var/www/openbiblio/layouts/default/A4_barcode_1x16.php).This is the PDF layout(template) file that will display our labels nicely. You can find it in the repository here - https://github.com/victor1tnet/OpenBiblio_EAL_Setup/blob/master/modified-A4_barcode_1x16.php
+
+For the original files check the other 2 files in the repository.
 
 ##Resources
 - http://openbiblio.sint-godelieve-instituut.be/install_instructions.html
