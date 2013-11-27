@@ -62,6 +62,33 @@ The second file is A4_barcode_1x16.php(/var/www/openbiblio/layouts/default/A4_ba
 
 For the original files check the other 2 files in the repository.
 
+###6. Tips/warnings
+
+####6.1. Strange error when trying to check out item
+
+When the everything is being set up, OpenBiblio/Apache/PHP can sometimes "confuse" the time you want to use. Or better yet, it doesn't know what time to use. Make sure you have a defined timezone in your php.ini file
+
+Modify php.ini
+- sudo nano /etc/php5/apache2/php.ini
+Look for a line containing "date.timezone" 
+- press "ctrl+w" now type "date.timezone" and now hit Enter
+You will probably find something like this:
+- ;date.timezone = 
+Uncomment the line and add your time zone in the following fashion:
+- date.timezone = "Europe/Copenhagen"
+Save file and restart apache
+- ctrl+x
+- sudo /etc/init.d/apache2 restart
+
+####6.2. Security tip 
+
+Remove the openbiblio/install directory completely to prevent unauthorized use of install or upgrade tools.
+
+####6.3. Security tip 
+
+Verify that the display_errors setting in php.ini is 'Off' to prevent unintended information disclosure.
+
+
 ##Resources
 - http://openbiblio.sint-godelieve-instituut.be/install_instructions.html
 - http://sourceforge.net/projects/obiblio/
