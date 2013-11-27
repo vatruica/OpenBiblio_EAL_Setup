@@ -66,7 +66,7 @@ For the original files check the other 2 files in the repository.
 
 ####6.1. Strange error when trying to check out item
 
-When the everything is being set up, OpenBiblio/Apache/PHP can sometimes "confuse" the time you want to use. Or better yet, it doesn't know what time to use. Make sure you have a defined timezone in your php.ini file
+When everything is being set up, OpenBiblio/Apache/PHP can sometimes "confuse" the time you want to use. Or better yet, it doesn't know what time to use. Make sure you have a defined timezone in your php.ini file
 
 Modify php.ini
 - sudo nano /etc/php5/apache2/php.ini
