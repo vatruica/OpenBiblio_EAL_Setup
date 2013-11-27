@@ -4,6 +4,8 @@ OpenBiblio_EAL_Setup
 This is a small guide on how to set up OpenBiblio for EAL(Erhvervsakademiet Lillebælt) from Odense, Denmark. 
 The main reason for this guide are some hardcoded modifications that adjusted the way barcode-labels are printed so that it would suit our printer requirements.
 
+The modifications made are probably not the best but they just work so we will be satisfied with a hardcoded solution for now.
+
 Installation on/with : 
 - linux server running apache2, php5, mysql
 - phpmyadmin (Optional)
