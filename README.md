@@ -70,15 +70,20 @@ When the everything is being set up, OpenBiblio/Apache/PHP can sometimes "confus
 
 Modify php.ini
 - sudo nano /etc/php5/apache2/php.ini
+
 Look for a line containing "date.timezone" 
 - press "ctrl+w" now type "date.timezone" and now hit Enter
+
 You will probably find something like this:
 - ;date.timezone = 
+
 Uncomment the line and add your time zone in the following fashion:
 - date.timezone = "Europe/Copenhagen"
+
 Save file and restart apache
 - ctrl+x
 - sudo /etc/init.d/apache2 restart
+
 
 ####6.2. Security tip 
 
