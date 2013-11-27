@@ -1,7 +1,6 @@
 This is the original layout.php file that is located in /var/www/openbiblio/shared/layout.php
 
 
-
 <?php
 /* This file is part of a copyrighted work; it is distributed with NO WARRANTY.
  * See the file COPYRIGHT.html for more details.
